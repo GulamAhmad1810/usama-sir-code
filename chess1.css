@@ -3,7 +3,14 @@
     margin: 0%;
     box-sizing: border-box;
 }
-body{
+/* body{
+    background: #01374b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}*/
+.box{
     background: #01374b;
     display: flex;
     align-items: center;
