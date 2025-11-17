@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #e58d8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    height: 300px;
+    width: 600px;
+    background: #0b89d2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.box{
+    /* border: 2px solid blue; */
+}
+.first{
+    grid-row-start: 1;
+    grid-row-end:5 ;
+    background: #028344;
+}
+.second{
+    grid-column-start: 2;
+    grid-column-end:4 ;
+    background: #028344;
+}
+.third{
+    grid-column-start: 4;
+    grid-column-end:5 ;
+    background: #e70d0d;
+}
+.fourth{
+    grid-row-start: 2;
+    grid-row-end:3;
+    background: #f2b123;
+}
+.fifth{
+    grid-row-start: 2;
+    grid-row-end:3;
+    background: #f50808;
+}
+.sixth{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: rgb(2, 123, 67);
+}
+.seventh{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: #eb0606;
+}
+
+.eighth{
+        grid-row-start:3 ;
+        grid-row-end: 5;
+        background: #f2b123;
+}
+
+
+
+
